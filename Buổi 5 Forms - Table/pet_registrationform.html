@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Registration Form</title>
+</head>
+<body>
+    <h1>Pet Registration Form</h1>
+    <form action="">
+        <fieldset>
+            <legend>General Information</legend>
+            Name: <input type="text" name="name"><br>
+            Species: 
+            <input type="radio" name="species" value="puppy"> Puppy
+            <input type="radio" name="species" value="kitten"> Kitten
+            <input type="radio" name="species" value="hamster"> Hamster
+            <input type="radio" name="species" value="other"> Other<br>
+            Gender:
+            <input type="radio" name="gender" value="male"> Male 
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="other"> Other<br>
+            <br>
+            Age: <input type="number" name="age" min="1" max="100"><br>
+            <br>
+            Birthdat: <input type="date" name="birthday"><br>
+            <br>
+            Address:
+            <select name="city">
+                <option value="H">Huế</option>
+                <option value="HCM">Hồ Chí Minh</option>
+                <option value="HN">Hà Nội</option>
+                <option value="DL">Đà Lạt</option>
+            </select>
+            <select name="district">
+                <option value="q1">Quận 1</option>
+                <option value="q2">Quận 2</option>
+                <option value="q3">Quận 3</option>
+                <option value="q4">Quận 4</option>
+                <option value="q5">Quận 5</option>
+            </select>
+            <select name="ward">
+                <option value="w1">Phường 1</option>
+                <option value="w2">Phường 2</option>
+                <option value="w3">Phường 3</option>
+                <option value="w4">Phường 4</option>
+                <option value="w5">Phường 5</option>
+            </select><br>
+            <br>
+            Fur Color:
+            <select name="fur_corlor">
+                <option value="grey">Grey</option>
+                <option value="black">Black</option>
+                <option value="white">White</option>
+                <option value="brown">Brown</option>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Pet Photo</legend>
+            Upload Photo of Your Pet Here!<br>
+            <input type="file" name="petPhoto">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Things Pet Love</legend>
+            <input type="checkbox" name="hobbies">Eating
+            <input type="checkbox" name="hobbies">Walking
+            <input type="checkbox" name="hobbies">Sleeping
+            <input type="checkbox" name="hobbies">Hiting
+            <input type="checkbox" name="hobbies">Drinking
+            <input type="checkbox" name="hobbies">Sunbathing
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Things Pet Hate</legend>
+            <input type="checkbox" name="hate">Shower
+            <input type="checkbox" name="hate">Petting
+            <input type="checkbox" name="hate">Hmmmm
+            <input type="checkbox" name="hate">Hiting
+            <input type="checkbox" name="hate">Drinking
+            <input type="checkbox" name="hate">Sunbathing
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Special Note</legend>
+            <textarea name="specialNote" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
