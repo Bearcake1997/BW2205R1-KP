@@ -1,0 +1,142 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #5E8FB5;
+    font-size: 13px;
+    /* box-sizing: border-box; */
+}
+
+header {
+    height: 20%;
+}
+
+header img {
+    height: 80%;
+    margin: 20px 50px;
+}
+
+header ul {
+    list-style-type: none;
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+header ul li:hover {
+    color: orchid;
+    font-weight: 800;
+}
+
+header button {
+    background-color: white;
+    color: #5E8FB5;
+    border: 1px solid #5E8FB5;
+    float: right;
+    margin-top: 15px;
+    margin-right: 50px;
+    height: 50px;
+    padding: 5px 30px;
+}
+
+.banner {
+    width: 100%;
+    height: 70%;
+    border: none;
+}
+
+.intro {
+    width: 60%;
+    height: 60%;
+    text-align: center;
+    padding: 50px 20%;
+    /* box-sizing: border-box; */
+}
+
+.intro button {
+    height: 50px;
+    padding: 5px 40px;
+    background-color: white;
+    color: #5E8FB5;
+    border: 1px solid #5E8FB5;
+    margin-top: 15px;
+    margin-right: 50px;
+    height: 50px;
+    padding: 5px 30px;
+}
+
+.welcome {
+    background-color: #E1EFF4;
+    padding: 50px 30px;
+    height: 1800px;
+}
+
+.welcome>h2 {
+    text-align: center;
+}
+
+.welcome > h2::first-letter {
+    font-size: 40px;
+    text-decoration: underline;
+    color: black;
+}
+
+.house-intro {
+    width: 45%;
+    height: 600px;
+    background-color: white;
+    float: left;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+.house-intro:nth-child(4),
+.house-intro:nth-child(5),
+.house-intro:nth-child(6) {
+    width: 30%;
+    height: 400px;
+}
+
+.house-intro:nth-child(4) img,
+.house-intro:nth-child(5) img,
+.house-intro:nth-child(6) img {
+    height: 80%;
+}
+
+.house-intro img {
+    width: 100%;
+    height: 400px;
+}
+
+.house-intro p {
+    color: darkgray;
+}
+
+.welcome button {
+    height: 50px;
+    padding: 5px 40px;
+    background-color: white;
+    color: #5E8FB5;
+    border: 1px solid #5E8FB5;
+    float: left;
+    margin-top: 15px;
+    margin-right: 50px;
+    height: 50px;
+    padding: 5px 30px;
+    transition-delay: 2s;
+    transition: color 1s, padding 3s;
+}
+
+button:hover {
+    color: orchid;
+    border-color: orchid;
+    padding-left: 150px;
+    padding-right: 150px;
+}
