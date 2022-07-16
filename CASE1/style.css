@@ -10,17 +10,9 @@ header {
     background: linear-gradient(rgba(11, 126, 172, 0.5), #0c5851), url(./img/inline_image_preview.jpg);
     background-size: cover;
     background-position: center;
-    height: 100%;
+    height: 550px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-/* #banner {
-    background: linear-gradient(rgba(11, 126, 172, 0.5), #0c5851), url(./img/inline_image_preview.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-} */
 
 .logo {
     width: 150px;
@@ -124,13 +116,14 @@ nav ul li a {
 
 #feature {
     width: 100%;
-    padding-top: 600px;
+    padding-top: 100px;
     padding-bottom: 120px;
 }
 
 .title-text {
     text-align: center;
     padding-bottom: 70px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .title-text p {
@@ -147,7 +140,7 @@ nav ul li a {
     content: '';
     width: 50px;
     height: 35px;
-    background: linear-gradient(rgb(18, 79, 119),rgb(112, 140, 184));
+    background: linear-gradient(rgb(18, 79, 119), rgb(112, 140, 184));
     position: absolute;
     top: -20px;
     left: 0;
@@ -172,6 +165,7 @@ nav ul li a {
 
 .feature {
     flex-basis: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .feature-img {
@@ -246,7 +240,7 @@ nav ul li a {
     top: 0;
     border-radius: 7px;
     cursor: pointer;
-    background: linear-gradient(rgb(0, 0, 0, 0.5),rgb(55, 154, 194));
+    background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(55, 154, 194));
     opacity: 0;
     transition: 1s;
 }
@@ -286,6 +280,7 @@ hr {
 #testimonial {
     width: 100%;
     padding: 70px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .testimonial-row {
@@ -335,4 +330,82 @@ hr {
 
 .testimonial-col:hover {
     transform: translateY(7px);
+}
+
+footer {
+    padding: 100px 0 20px;
+    background: #efefef;
+    position: relative;
+    /* align-items: flex-end; */
+    bottom: 0;
+    left: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-row {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left,
+.footer-right {
+    flex-basis: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-row h1 {
+    margin: 10px 0;
+    color: #009688;
+}
+
+.footer-row p {
+    line-height: 35px;
+}
+
+.footer-img {
+    max-width: 500px;
+    opacity: 0.1;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links .bi {
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 40px 5px 0;
+    color: #009688;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.social-links .bi:hover {
+    color: #da990e;
+}
+
+.social-links p {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.footer-left .bi,
+.footer-right .bi {
+    font-size: 20px;
+    color: #009688;
+    margin: 10px;
 }
